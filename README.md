@@ -97,6 +97,10 @@ https://drive.google.com/file/d/1GcOSXBfcYQfRG63VBvESlD22TcYJXDfz/view?usp=drive
 SIDD general test datas;
 https://drive.google.com/file/d/1qoazB2neUIPI6K6UGxIVro2xorwKLIUH/view?usp=drive_link
 
+DOI: 10.5281/zenodo.20693416
+URL: https://doi.org/10.5281/zenodo.20693416
+Github Link: https://github.com/solaris3344/LightCAE-RGB-image-denoising/releases/tag/v1.0.0
+
 
 
 
