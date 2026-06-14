@@ -90,6 +90,14 @@ https://drive.google.com/file/d/1q3DZvaUgfoEIqPVsBwo2GL-e8vUZEMNz/view?usp=drive
 https://drive.google.com/file/d/1q3DZvaUgfoEIqPVsBwo2GL-e8vUZEMNz/view?usp=drive_link    (sigma=25/255)
 https://drive.google.com/file/d/1q3DZvaUgfoEIqPVsBwo2GL-e8vUZEMNz/view?usp=drive_link    (sigma=50/255)
 
+SIDD ours test datas;
+https://drive.google.com/file/d/1GcOSXBfcYQfRG63VBvESlD22TcYJXDfz/view?usp=drive_link
+
+
+SIDD general test datas;
+https://drive.google.com/file/d/1qoazB2neUIPI6K6UGxIVro2xorwKLIUH/view?usp=drive_link
+
+
 
 
 
