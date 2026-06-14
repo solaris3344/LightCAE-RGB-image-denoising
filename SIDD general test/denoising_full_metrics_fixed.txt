@@ -1,35 +1,5 @@
-PROTOKOL: float PSNR, kanal-ortalama SSIM (data_range=255), resize YOK, uint8 PNG.
-GT goruntu sayisi: 1280 | Ortak kume: 1280
 
---- KAPSAMA (her model kac goruntude sonuc uretti) ---
-OUR       : 1280/1280
-MIRNET    : 1280/1280
-MPRNET    : 1280/1280
-RESTORMER : 1280/1280
-UFORMER   : 1280/1280
-NAFNET    : 1280/1280
-RIDNET    : 1280/1280
-DEAMNET   : 1280/1280
 
-=== ADIL ORTALAMA (yalnizca ortak kume, N=1280) ===
-OUR        -> PSNR:  38.68 dB | SSIM: 0.9029  (N=1280)
-MIRNET     -> PSNR:  39.64 dB | SSIM: 0.9123  (N=1280)
-MPRNET     -> PSNR:  39.63 dB | SSIM: 0.9125  (N=1280)
-RESTORMER  -> PSNR:  39.93 dB | SSIM: 0.9147  (N=1280)
-UFORMER    -> PSNR:  39.81 dB | SSIM: 0.9136  (N=1280)
-NAFNET     -> PSNR:  40.21 dB | SSIM: 0.9182  (N=1280)
-RIDNET     -> PSNR:  38.71 dB | SSIM: 0.9047  (N=1280)
-DEAMNET    -> PSNR:  39.40 dB | SSIM: 0.9094  (N=1280)
-
-=== BILGI: TUM KAPSAMA ORTALAMASI (modeller farkli N olabilir) ===
-OUR        -> PSNR:  38.68 dB | SSIM: 0.9029  (N=1280)
-MIRNET     -> PSNR:  39.64 dB | SSIM: 0.9123  (N=1280)
-MPRNET     -> PSNR:  39.63 dB | SSIM: 0.9125  (N=1280)
-RESTORMER  -> PSNR:  39.93 dB | SSIM: 0.9147  (N=1280)
-UFORMER    -> PSNR:  39.81 dB | SSIM: 0.9136  (N=1280)
-NAFNET     -> PSNR:  40.21 dB | SSIM: 0.9182  (N=1280)
-RIDNET     -> PSNR:  38.71 dB | SSIM: 0.9047  (N=1280)
-DEAMNET    -> PSNR:  39.40 dB | SSIM: 0.9094  (N=1280)
 
 --- DETAY (ortak kume) ---
 Image                      |      OUR      |    MIRNET     |    MPRNET     |   RESTORMER   |    UFORMER    |    NAFNET     |    RIDNET     |    DEAMNET   
