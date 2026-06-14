@@ -1,20 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-test_metrics_fixed.py — Protokol-uyumlu toplu PSNR/SSIM degerlendirmesi.
-
-Onceki betige gore DUZELTMELER:
-  1) PSNR float64 uzerinden hesaplanir (uint8 cikarmasindaki tasma/sarma hatasi giderildi).
-  2) SSIM KANAL-ORTALAMA olarak hesaplanir (makaledeki Tablo 2/5 ile AYNI gelenek;
-     birlesik 3-kanal SSIM degil). data_range=255.
-  3) Boyut uyusmazliginda SESSIZ RESIZE YOK: cift atlanir ve mismatch.log'a yazilir.
-  4) ADIL ORTALAMA: ortalama yalnizca TUM modellerin gecerli sonuc urettigi ORTAK
-     goruntu kumesi uzerinden alinir (ornegin RIDNet'in 'Eksik' bloklari hicbir modelin
-     ortalamasini kaydirmaz). Ayrica her modelin kapsama sayisi raporlanir.
-
-NOT: Goruntuler zaten uint8 PNG oldugu icin uint8 yuvarlama protokole dahildir.
-KULLANIM: yollari ayarla, sonra:  python test_metrics_fixed.py
-"""
-
 import cv2
 import os
 import re
@@ -22,7 +5,7 @@ import numpy as np
 from skimage.metrics import structural_similarity as ssim
 
 # --- DOSYA YOLLARI ---
-base_path = r"C:\Users\serkan\Desktop\github\SIDD_general_test"
+base_path = r"...path\SIDD_general_test"
 paths = {
     'gt':        os.path.join(base_path, "GT"),
     'our':       os.path.join(base_path, "Denoised"),
