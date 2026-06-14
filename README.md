@@ -79,3 +79,18 @@ OK SwinIR
 SIDD test
 Deamnet(Note : change Benchmark_test.py -->Benchmark_test_updated.py),https://github.com/chaoren88/DeamNet/blob/main
 python Benchmark_test_updated.py --Type SIDD --data_folder "...path\SIDD_Val_PNG\Noisy" --out_folder "...path\SIDD_Val_PNG\Deam_Denoised"
+
+Ablation models;
+https://drive.google.com/file/d/1TpNKx0p5RVcIjTWbJ1wtLvQd6vGBwp6S/view?usp=drive_link
+https://drive.google.com/file/d/1q3DZvaUgfoEIqPVsBwo2GL-e8vUZEMNz/view?usp=drive_link
+
+
+RGB ours models;
+https://drive.google.com/file/d/1q3DZvaUgfoEIqPVsBwo2GL-e8vUZEMNz/view?usp=drive_link    (sigma=15/255)
+https://drive.google.com/file/d/1q3DZvaUgfoEIqPVsBwo2GL-e8vUZEMNz/view?usp=drive_link    (sigma=25/255)
+https://drive.google.com/file/d/1q3DZvaUgfoEIqPVsBwo2GL-e8vUZEMNz/view?usp=drive_link    (sigma=50/255)
+
+
+
+
+
