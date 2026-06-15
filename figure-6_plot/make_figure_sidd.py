@@ -1,22 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-make_figure_sidd.py — SIDD nitel karsilastirma + hata haritasi (Madde 6 & 11 / Figure X)
-
-Dosya adlandirma beklentisi (senin klasorundeki gibi):
-    gt_<SAHNE>.png, noisy_<SAHNE>.png, mirnet_<SAHNE>.png, mprnet_<SAHNE>.png,
-    uformer_<SAHNE>.png, nafnet_<SAHNE>.png, ridnet_<SAHNE>.png,
-    restormer_<SAHNE>.png, ours_<SAHNE>.png
-ornek SAHNE etiketi: "39_02"
-
-KULLANIM:
-    1) Asagidaki ROOT yolunu ve SCENES listesini doldur.
-    2) Her sahne icin yukaridaki 9 dosya ayni klasorde olmali (en az gt + yontemler).
-       noisy_* yoksa SHOW_NOISY = False yap.
-    3) pip install numpy pillow matplotlib scikit-image
-    4) python make_figure_sidd.py
-Cikti: figure_X_sidd_qualitative.png (300 dpi) + .pdf
-"""
-
 import os
 import numpy as np
 from PIL import Image
@@ -27,12 +8,11 @@ from skimage.metrics import structural_similarity as ssim_fn
 # ============================ CONFIG ============================
 ROOT = r"D:\Yeni klasör\benim\editor"   # PNG'lerin bulundugu klasor
 
-# Gostermek istedigin sahneler (alt satirlar). Her biri icin dosyalar ROOT'ta olmali.
-# En az 2-3 sahne onerilir: biri BASARISIZLIK (yogun doku), biri basari, biri renk/metin.
+
 SCENES = [
-    "39_02",            # senin verdigin basarisizlik ornegi (yogun tekrarli doku)
-    # "12_05",          # <-- varsa bir basari ornegi ekle
-    # "27_11",          # <-- varsa bir renk-kaymasi/metin ornegi ekle
+    "39_02",            
+    # "12_05",          
+    # "27_11",          
 ]
 
 # Yontem adi -> dosya oneki (sira = sutun sirasi). Makaledeki Tablo/Sekil sirasiyla ayni tut.
