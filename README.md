@@ -63,13 +63,13 @@ OK SCUNet
 OK SwinIR
 
 ========================================================================
-  Model                            Params      MACs    GFLOPs     Sure
+  Model                            Params      MACs    GFLOPs     Time
   --------------------------------------------------------------------
   LightCAE  (Ours)                 1.501M    24.41G    48.81G     8.3ms <--
   DnCNN                            0.558M    36.72G    73.43G    10.1ms
   IRCNN                            0.188M    12.39G    24.78G     3.5ms
   FFDNet                           0.497M     8.17G    16.34G     2.1ms
-  ADNet                            0.522M    34.30G    68.60G     9.1ms (update=Params=1.5M)
+  ADNet                            0.522M    34.30G    68.60G     9.1ms (update->Params=1.5M)
   DRUNet                          32.654M   143.61G   287.22G    27.8ms
   SCUNet                          17.946M    79.93G   159.85G    62.7ms
   SwinIR                          11.504M   752.13G  1504.27G   640.1ms
